@@ -1,0 +1,9 @@
+# Compiled engine: platform-specific, rebuilt by ./run.sh build
+build/
+
+# data/ and outputs/ are committed on purpose: they hold one complete run,
+# so the report opens straight after cloning. ./run.sh all regenerates them.
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,17 @@
+# Optional: run.sh compiles the engine directly, CMake is not required.
+#   cmake -S . -B build && cmake --build build
+cmake_minimum_required(VERSION 3.10)
+project(tourism_engine CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release)
+endif()
+file(GLOB ENGINE_SOURCES cpp/src/*.cpp)
+list(REMOVE_ITEM ENGINE_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/cpp/src/main.cpp)
+add_library(engine_core STATIC ${ENGINE_SOURCES})
+target_include_directories(engine_core PUBLIC cpp/include)
+add_executable(tourism_engine cpp/src/main.cpp)
+target_link_libraries(tourism_engine engine_core)
+add_executable(engine_tests cpp/tests/test_engine.cpp)
+target_link_libraries(engine_tests engine_core)

@@ -1,0 +1,14 @@
+{
+  "id": "U_CULTURE",
+  "name": "Asha (culture lover)",
+  "start": "Riverside Inn",
+  "start_time": "09:30",
+  "end_time": "19:00",
+  "budget": 3000,
+  "interests": {"history": 0.95, "architecture": 0.85, "art": 0.6, "spiritual": 0.5, "food": 0.4, "crafts": 0.3},
+  "modes": ["walk", "transit", "car"],
+  "max_walk_m": 8000,
+  "max_activities": 4,
+  "lunch": true,
+  "must_visit_names": ["Royal Fort"]
+}

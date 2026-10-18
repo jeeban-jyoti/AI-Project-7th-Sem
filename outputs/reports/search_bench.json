@@ -1,0 +1,44 @@
+{
+ "routing": {
+  "ok": true,
+  "pairs": 300,
+  "algorithms": {
+   "ucs": {
+    "avg_expanded": 81.3633,
+    "avg_generated": 318.097,
+    "avg_runtime_us": 46.9693,
+    "avg_cost": 19.4487,
+    "avg_cost_ratio_vs_ucs": 1,
+    "optimal_share": 1
+   },
+   "greedy": {
+    "avg_expanded": 2.94667,
+    "avg_generated": 74.48,
+    "avg_runtime_us": 4.9789,
+    "avg_cost": 25.2195,
+    "avg_cost_ratio_vs_ucs": 1.2962,
+    "optimal_share": 0.26
+   },
+   "astar": {
+    "avg_expanded": 46.4767,
+    "avg_generated": 242.063,
+    "avg_runtime_us": 29.3637,
+    "avg_cost": 19.4487,
+    "avg_cost_ratio_vs_ucs": 1,
+    "optimal_share": 1
+   }
+  },
+  "id": 2
+ },
+ "csp": {
+  "solves": 40,
+  "solved": 1.0,
+  "nodes": 13824.025,
+  "backtracks": 22133.975,
+  "pruned": 6326.3,
+  "fc_removed": 283807.425,
+  "runtime_ms": 42.88418675,
+  "complete": 0.7,
+  "greedy_equal": 0.025
+ }
+}

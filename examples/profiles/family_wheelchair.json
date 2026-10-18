@@ -1,0 +1,14 @@
+{
+  "id": "U_FAMILY",
+  "name": "The Rao family (wheelchair user)",
+  "start": "Lakeside Resort",
+  "start_time": "10:00",
+  "end_time": "18:00",
+  "budget": 5000,
+  "interests": {"family": 1.0, "nature": 0.8, "food": 0.5, "art": 0.3},
+  "modes": ["walk", "transit"],
+  "accessible_only": true,
+  "max_walk_m": 3500,
+  "max_activities": 3,
+  "lunch": true
+}
