@@ -1,8 +1,6 @@
-# Compiled engine: platform-specific, rebuilt by ./run.sh build
-build/
-
-# data/ and outputs/ are committed on purpose: they hold one complete run,
-# so the report opens straight after cloning. ./run.sh all regenerates them.
+# Large generated datasets (python3 generate_data.py makes the same files again)
+data/history.csv
+data/transit_history.csv
 
 __pycache__/
 *.pyc

@@ -1,2 +1,0 @@
-# No third-party packages are needed: the Python side uses only the standard library (Python 3.8+).
-# The C++ engine needs a C++17 compiler (clang++ or g++). Everything is built and run by ./run.sh.

@@ -1,0 +1,7853 @@
+[
+ {
+  "name": "Explorer traveller 1",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.56,
+   "art": 0.48,
+   "nature": 0.41,
+   "food": 0.42,
+   "shopping": 0.48,
+   "spiritual": 0.64,
+   "architecture": 0.63,
+   "family": 0.52,
+   "crafts": 0.61
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.794
+ },
+ {
+  "name": "Nature traveller 2",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.35,
+   "spiritual": 0.33,
+   "family": 0.36
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.55
+ },
+ {
+  "name": "Spiritual traveller 3",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.51,
+   "nature": 0.43,
+   "spiritual": 1.0,
+   "architecture": 0.46
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.491
+ },
+ {
+  "name": "Explorer traveller 4",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.62,
+   "nature": 0.64,
+   "food": 0.6,
+   "shopping": 0.45,
+   "spiritual": 0.62,
+   "architecture": 0.69,
+   "family": 0.38,
+   "crafts": 0.57
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.591
+ },
+ {
+  "name": "Explorer traveller 5",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.56,
+   "art": 0.63,
+   "nature": 0.56,
+   "food": 0.56,
+   "shopping": 0.45,
+   "spiritual": 0.55,
+   "architecture": 0.61,
+   "family": 0.58,
+   "crafts": 0.77
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.316
+ },
+ {
+  "name": "Explorer traveller 6",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.49,
+   "art": 0.55,
+   "nature": 0.61,
+   "food": 0.42,
+   "shopping": 0.28,
+   "spiritual": 0.59,
+   "architecture": 0.73,
+   "family": 0.38,
+   "crafts": 0.45
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.439
+ },
+ {
+  "name": "Explorer traveller 7",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.55,
+   "art": 0.55,
+   "nature": 0.8,
+   "food": 0.31,
+   "shopping": 0.52,
+   "spiritual": 0.58,
+   "architecture": 0.4,
+   "family": 0.5,
+   "crafts": 0.68
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.126
+ },
+ {
+  "name": "Foodie traveller 8",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.28,
+   "food": 1.0,
+   "shopping": 0.69,
+   "crafts": 0.49
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.821
+ },
+ {
+  "name": "Family traveller 9",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "art": 0.26,
+   "nature": 0.61,
+   "food": 0.53,
+   "family": 0.87
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.547
+ },
+ {
+  "name": "Explorer traveller 10",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.65,
+   "art": 0.49,
+   "nature": 0.52,
+   "food": 0.59,
+   "shopping": 0.46,
+   "spiritual": 0.68,
+   "architecture": 0.59,
+   "family": 0.45,
+   "crafts": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.935
+ },
+ {
+  "name": "Culture traveller 11",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.99,
+   "art": 0.53,
+   "food": 0.32,
+   "spiritual": 0.55,
+   "architecture": 0.88,
+   "crafts": 0.29
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.095
+ },
+ {
+  "name": "Nature traveller 12",
+  "archetype": "nature",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.35,
+   "spiritual": 0.59,
+   "family": 0.3
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.438
+ },
+ {
+  "name": "Family traveller 13",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 0.51,
+   "food": 0.6,
+   "family": 0.82,
+   "crafts": 0.26
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.94
+ },
+ {
+  "name": "Explorer traveller 14",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.52,
+   "nature": 0.66,
+   "food": 0.48,
+   "shopping": 0.62,
+   "spiritual": 0.64,
+   "architecture": 0.63,
+   "family": 0.45,
+   "crafts": 0.42
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.532
+ },
+ {
+  "name": "Culture traveller 15",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.73,
+   "art": 0.83,
+   "food": 0.38,
+   "spiritual": 0.4,
+   "architecture": 0.76,
+   "crafts": 0.49
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.074
+ },
+ {
+  "name": "Foodie traveller 16",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "food": 0.98,
+   "shopping": 0.67,
+   "crafts": 0.46
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.211
+ },
+ {
+  "name": "Explorer traveller 17",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.6,
+   "art": 0.3,
+   "nature": 0.37,
+   "food": 0.58,
+   "shopping": 0.27,
+   "spiritual": 0.35,
+   "architecture": 0.74,
+   "family": 0.48,
+   "crafts": 0.52
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.477
+ },
+ {
+  "name": "Shopper traveller 18",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "food": 0.45,
+   "shopping": 0.97,
+   "crafts": 0.93
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.395
+ },
+ {
+  "name": "Family traveller 19",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.36,
+   "nature": 0.54,
+   "food": 0.39,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.268
+ },
+ {
+  "name": "Explorer traveller 20",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.57,
+   "art": 0.48,
+   "nature": 0.51,
+   "food": 0.7,
+   "shopping": 0.4,
+   "spiritual": 0.46,
+   "architecture": 0.64,
+   "family": 0.39,
+   "crafts": 0.52
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.267
+ },
+ {
+  "name": "Foodie traveller 21",
+  "archetype": "foodie",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.43,
+   "food": 0.93,
+   "shopping": 0.37,
+   "crafts": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.257
+ },
+ {
+  "name": "Nature traveller 22",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "nature": 0.93,
+   "food": 0.35,
+   "spiritual": 0.55
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.666
+ },
+ {
+  "name": "Shopper traveller 23",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "food": 0.48,
+   "shopping": 1.0,
+   "architecture": 0.27,
+   "crafts": 0.8
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.165
+ },
+ {
+  "name": "Culture traveller 24",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.9,
+   "art": 0.7,
+   "spiritual": 0.42,
+   "architecture": 0.83,
+   "crafts": 0.32
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.419
+ },
+ {
+  "name": "Culture traveller 25",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.78,
+   "food": 0.38,
+   "shopping": 0.26,
+   "spiritual": 0.54,
+   "architecture": 0.83,
+   "crafts": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.308
+ },
+ {
+  "name": "Culture traveller 26",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.97,
+   "art": 0.47,
+   "food": 0.42,
+   "spiritual": 0.3,
+   "architecture": 1.0
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.522
+ },
+ {
+  "name": "Family traveller 27",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.31,
+   "nature": 0.7,
+   "food": 0.31,
+   "family": 0.86
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.591
+ },
+ {
+  "name": "Foodie traveller 28",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "food": 1.0,
+   "shopping": 0.56,
+   "crafts": 0.44
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.142
+ },
+ {
+  "name": "Spiritual traveller 29",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.5,
+   "nature": 0.34,
+   "spiritual": 1.0,
+   "architecture": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.37
+ },
+ {
+  "name": "Explorer traveller 30",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.36,
+   "art": 0.47,
+   "nature": 0.5,
+   "food": 0.39,
+   "shopping": 0.49,
+   "spiritual": 0.37,
+   "architecture": 0.66,
+   "family": 0.41,
+   "crafts": 0.29
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.271
+ },
+ {
+  "name": "Culture traveller 31",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.87,
+   "art": 0.66,
+   "spiritual": 0.31,
+   "architecture": 1.0,
+   "crafts": 0.31
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.288
+ },
+ {
+  "name": "Shopper traveller 32",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.27,
+   "food": 0.54,
+   "shopping": 0.94,
+   "crafts": 0.64
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.594
+ },
+ {
+  "name": "Shopper traveller 33",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "food": 0.57,
+   "shopping": 0.92,
+   "crafts": 0.67
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.087
+ },
+ {
+  "name": "Foodie traveller 34",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "food": 0.87,
+   "shopping": 0.61,
+   "crafts": 0.62
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.694
+ },
+ {
+  "name": "Nature traveller 35",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 0.97,
+   "food": 0.29,
+   "spiritual": 0.31,
+   "family": 0.46
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.28
+ },
+ {
+  "name": "Family traveller 36",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.4,
+   "nature": 0.54,
+   "food": 0.3,
+   "family": 0.73
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.524
+ },
+ {
+  "name": "Family traveller 37",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.44,
+   "nature": 0.62,
+   "food": 0.52,
+   "family": 0.96
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.41
+ },
+ {
+  "name": "Foodie traveller 38",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "food": 0.83,
+   "shopping": 0.44,
+   "crafts": 0.58
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.39
+ },
+ {
+  "name": "Culture traveller 39",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.81,
+   "art": 0.51,
+   "food": 0.37,
+   "spiritual": 0.46,
+   "architecture": 0.79,
+   "crafts": 0.31
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.663
+ },
+ {
+  "name": "Culture traveller 40",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "history": 1.0,
+   "art": 0.78,
+   "food": 0.35,
+   "spiritual": 0.26,
+   "architecture": 0.78
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.819
+ },
+ {
+  "name": "Spiritual traveller 41",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.74,
+   "spiritual": 0.84,
+   "architecture": 0.39
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.924
+ },
+ {
+  "name": "Culture traveller 42",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.82,
+   "art": 0.64,
+   "spiritual": 0.35,
+   "architecture": 0.66,
+   "crafts": 0.52
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.036
+ },
+ {
+  "name": "Family traveller 43",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.35,
+   "nature": 0.54,
+   "food": 0.32,
+   "family": 1.0
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.204
+ },
+ {
+  "name": "Shopper traveller 44",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.29,
+   "food": 0.45,
+   "shopping": 1.0,
+   "crafts": 0.65
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.154
+ },
+ {
+  "name": "Family traveller 45",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.42,
+   "food": 0.42,
+   "family": 1.0
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.355
+ },
+ {
+  "name": "Nature traveller 46",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "nature": 0.91,
+   "spiritual": 0.6,
+   "family": 0.56
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.17
+ },
+ {
+  "name": "Culture traveller 47",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.95,
+   "art": 0.59,
+   "food": 0.3,
+   "spiritual": 0.53,
+   "architecture": 0.94
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.318
+ },
+ {
+  "name": "Foodie traveller 48",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.49,
+   "food": 1.0,
+   "shopping": 0.56,
+   "crafts": 0.54
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.399
+ },
+ {
+  "name": "Family traveller 49",
+  "archetype": "family",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.51,
+   "nature": 0.67,
+   "food": 0.43,
+   "family": 0.96
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.777
+ },
+ {
+  "name": "Culture traveller 50",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.75,
+   "art": 0.7,
+   "spiritual": 0.29,
+   "architecture": 1.0,
+   "crafts": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.42
+ },
+ {
+  "name": "Nature traveller 51",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.28,
+   "spiritual": 0.29,
+   "family": 0.47
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.201
+ },
+ {
+  "name": "Nature traveller 52",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.4,
+   "spiritual": 0.42,
+   "family": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.451
+ },
+ {
+  "name": "Spiritual traveller 53",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.65,
+   "spiritual": 1.0,
+   "architecture": 0.53
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.181
+ },
+ {
+  "name": "Foodie traveller 54",
+  "archetype": "foodie",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "food": 1.0,
+   "shopping": 0.58,
+   "crafts": 0.58
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.062
+ },
+ {
+  "name": "Shopper traveller 55",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.39,
+   "food": 0.69,
+   "shopping": 0.91,
+   "crafts": 0.67
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.38
+ },
+ {
+  "name": "Nature traveller 56",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.36,
+   "spiritual": 0.56,
+   "family": 0.47
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.737
+ },
+ {
+  "name": "Foodie traveller 57",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.29,
+   "art": 0.28,
+   "food": 0.99,
+   "shopping": 0.29,
+   "crafts": 0.48
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.252
+ },
+ {
+  "name": "Nature traveller 58",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.33,
+   "spiritual": 0.33,
+   "family": 0.43,
+   "crafts": 0.28
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.281
+ },
+ {
+  "name": "Explorer traveller 59",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.48,
+   "art": 0.45,
+   "nature": 0.52,
+   "food": 0.82,
+   "shopping": 0.56,
+   "spiritual": 0.58,
+   "architecture": 0.58,
+   "family": 0.53,
+   "crafts": 0.35
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.168
+ },
+ {
+  "name": "Explorer traveller 60",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.32,
+   "art": 0.64,
+   "nature": 0.71,
+   "food": 0.42,
+   "shopping": 0.58,
+   "spiritual": 0.47,
+   "architecture": 0.48,
+   "family": 0.39,
+   "crafts": 0.49
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.164
+ },
+ {
+  "name": "Culture traveller 61",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.98,
+   "art": 0.64,
+   "food": 0.27,
+   "spiritual": 0.48,
+   "architecture": 0.67,
+   "crafts": 0.51
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.226
+ },
+ {
+  "name": "Spiritual traveller 62",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.61,
+   "nature": 0.44,
+   "spiritual": 1.0,
+   "architecture": 0.57
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.548
+ },
+ {
+  "name": "Culture traveller 63",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.84,
+   "art": 0.67,
+   "food": 0.47,
+   "spiritual": 0.47,
+   "architecture": 0.82
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.665
+ },
+ {
+  "name": "Culture traveller 64",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.75,
+   "food": 0.34,
+   "architecture": 0.71
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.461
+ },
+ {
+  "name": "Family traveller 65",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.29,
+   "nature": 0.72,
+   "food": 0.43,
+   "family": 0.96
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.315
+ },
+ {
+  "name": "Shopper traveller 66",
+  "archetype": "shopper",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.31,
+   "food": 0.62,
+   "shopping": 1.0,
+   "crafts": 0.77
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.339
+ },
+ {
+  "name": "Foodie traveller 67",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.41,
+   "art": 0.37,
+   "food": 0.93,
+   "shopping": 0.45,
+   "crafts": 0.54
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.316
+ },
+ {
+  "name": "Explorer traveller 68",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.52,
+   "art": 0.61,
+   "nature": 0.67,
+   "food": 0.43,
+   "shopping": 0.37,
+   "spiritual": 0.6,
+   "architecture": 0.4,
+   "family": 0.68,
+   "crafts": 0.47
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.514
+ },
+ {
+  "name": "Explorer traveller 69",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.64,
+   "art": 0.57,
+   "nature": 0.28,
+   "food": 0.53,
+   "shopping": 0.36,
+   "spiritual": 0.54,
+   "architecture": 0.39,
+   "family": 0.49,
+   "crafts": 0.5
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.411
+ },
+ {
+  "name": "Family traveller 70",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "nature": 0.61,
+   "food": 0.26,
+   "family": 1.0,
+   "crafts": 0.37
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.812
+ },
+ {
+  "name": "Shopper traveller 71",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.26,
+   "art": 0.39,
+   "food": 0.46,
+   "shopping": 1.0,
+   "crafts": 0.76
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.192
+ },
+ {
+  "name": "Spiritual traveller 72",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.49,
+   "nature": 0.38,
+   "spiritual": 1.0,
+   "architecture": 0.51
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.207
+ },
+ {
+  "name": "Spiritual traveller 73",
+  "archetype": "spiritual",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.66,
+   "spiritual": 1.0,
+   "architecture": 0.66
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.388
+ },
+ {
+  "name": "Spiritual traveller 74",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.67,
+   "nature": 0.35,
+   "spiritual": 1.0,
+   "architecture": 0.59
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.746
+ },
+ {
+  "name": "Spiritual traveller 75",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.62,
+   "nature": 0.47,
+   "spiritual": 0.89,
+   "architecture": 0.44
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.755
+ },
+ {
+  "name": "Nature traveller 76",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "nature": 0.94,
+   "food": 0.41,
+   "spiritual": 0.71
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.142
+ },
+ {
+  "name": "Culture traveller 77",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.76,
+   "art": 0.72,
+   "food": 0.46,
+   "spiritual": 0.37,
+   "architecture": 0.72,
+   "crafts": 0.27
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.747
+ },
+ {
+  "name": "Nature traveller 78",
+  "archetype": "nature",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 0.98,
+   "spiritual": 0.29,
+   "family": 0.45
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.211
+ },
+ {
+  "name": "Family traveller 79",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.65,
+   "food": 0.43,
+   "family": 0.94
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.648
+ },
+ {
+  "name": "Shopper traveller 80",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "art": 0.45,
+   "food": 0.62,
+   "shopping": 0.98,
+   "crafts": 0.74
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.383
+ },
+ {
+  "name": "Explorer traveller 81",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.54,
+   "art": 0.63,
+   "nature": 0.35,
+   "food": 0.39,
+   "shopping": 0.5,
+   "spiritual": 0.49,
+   "architecture": 0.58,
+   "family": 0.44,
+   "crafts": 0.34
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.893
+ },
+ {
+  "name": "Family traveller 82",
+  "archetype": "family",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.76,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.585
+ },
+ {
+  "name": "Shopper traveller 83",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "food": 0.41,
+   "shopping": 1.0,
+   "architecture": 0.29,
+   "crafts": 0.54
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.097
+ },
+ {
+  "name": "Family traveller 84",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.36,
+   "art": 0.36,
+   "nature": 0.44,
+   "family": 0.81
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.336
+ },
+ {
+  "name": "Explorer traveller 85",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.26,
+   "art": 0.44,
+   "nature": 0.59,
+   "food": 0.48,
+   "shopping": 0.4,
+   "spiritual": 0.63,
+   "architecture": 0.65,
+   "family": 0.59,
+   "crafts": 0.42
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.58
+ },
+ {
+  "name": "Explorer traveller 86",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.4,
+   "art": 0.39,
+   "nature": 0.52,
+   "food": 0.59,
+   "shopping": 0.68,
+   "spiritual": 0.3,
+   "architecture": 0.49,
+   "family": 0.51,
+   "crafts": 0.51
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.67
+ },
+ {
+  "name": "Spiritual traveller 87",
+  "archetype": "spiritual",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.53,
+   "nature": 0.26,
+   "spiritual": 1.0,
+   "architecture": 0.52
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.638
+ },
+ {
+  "name": "Explorer traveller 88",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.54,
+   "art": 0.5,
+   "nature": 0.29,
+   "food": 0.57,
+   "shopping": 0.6,
+   "spiritual": 0.53,
+   "architecture": 0.62,
+   "family": 0.34,
+   "crafts": 0.69
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.799
+ },
+ {
+  "name": "Shopper traveller 89",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.27,
+   "food": 0.28,
+   "shopping": 0.98,
+   "crafts": 0.82
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.506
+ },
+ {
+  "name": "Foodie traveller 90",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.51,
+   "art": 0.27,
+   "food": 1.0,
+   "shopping": 0.51,
+   "crafts": 0.62
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.466
+ },
+ {
+  "name": "Nature traveller 91",
+  "archetype": "nature",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.88,
+   "food": 0.35,
+   "spiritual": 0.61,
+   "family": 0.39
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.838
+ },
+ {
+  "name": "Nature traveller 92",
+  "archetype": "nature",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.98,
+   "spiritual": 0.44,
+   "family": 0.32
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.079
+ },
+ {
+  "name": "Explorer traveller 93",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.43,
+   "art": 0.38,
+   "nature": 0.45,
+   "food": 0.49,
+   "shopping": 0.31,
+   "spiritual": 0.39,
+   "architecture": 0.49,
+   "family": 0.58,
+   "crafts": 0.44
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.916
+ },
+ {
+  "name": "Explorer traveller 94",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.65,
+   "art": 0.58,
+   "nature": 0.67,
+   "food": 0.51,
+   "shopping": 0.58,
+   "spiritual": 0.62,
+   "architecture": 0.36,
+   "family": 0.5,
+   "crafts": 0.3
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.183
+ },
+ {
+  "name": "Shopper traveller 95",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "art": 0.44,
+   "food": 0.56,
+   "shopping": 0.97,
+   "crafts": 0.65
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.149
+ },
+ {
+  "name": "Foodie traveller 96",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "food": 1.0,
+   "shopping": 0.56,
+   "crafts": 0.6
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.58
+ },
+ {
+  "name": "Spiritual traveller 97",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.62,
+   "spiritual": 0.88,
+   "architecture": 0.62
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.949
+ },
+ {
+  "name": "Family traveller 98",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "art": 0.29,
+   "nature": 0.39,
+   "food": 0.43,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.303
+ },
+ {
+  "name": "Foodie traveller 99",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.44,
+   "food": 1.0,
+   "shopping": 0.41,
+   "crafts": 0.4
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.739
+ },
+ {
+  "name": "Foodie traveller 100",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.28,
+   "food": 0.88,
+   "shopping": 0.58,
+   "crafts": 0.52
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.807
+ },
+ {
+  "name": "Shopper traveller 101",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.35,
+   "shopping": 1.0,
+   "crafts": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.453
+ },
+ {
+  "name": "Family traveller 102",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.37,
+   "art": 0.27,
+   "nature": 0.66,
+   "food": 0.26,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.723
+ },
+ {
+  "name": "Culture traveller 103",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.91,
+   "art": 0.78,
+   "food": 0.28,
+   "spiritual": 0.55,
+   "architecture": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.902
+ },
+ {
+  "name": "Spiritual traveller 104",
+  "archetype": "spiritual",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.72,
+   "nature": 0.31,
+   "spiritual": 0.99,
+   "architecture": 0.54
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.393
+ },
+ {
+  "name": "Culture traveller 105",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.91,
+   "art": 0.77,
+   "food": 0.47,
+   "spiritual": 0.46,
+   "architecture": 0.66,
+   "crafts": 0.28
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.83
+ },
+ {
+  "name": "Nature traveller 106",
+  "archetype": "nature",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "nature": 0.98,
+   "food": 0.43,
+   "family": 0.43
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.157
+ },
+ {
+  "name": "Culture traveller 107",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.92,
+   "art": 0.75,
+   "spiritual": 0.46,
+   "architecture": 0.96
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.808
+ },
+ {
+  "name": "Nature traveller 108",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "family": 0.43,
+   "crafts": 0.26
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.524
+ },
+ {
+  "name": "Nature traveller 109",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.3,
+   "spiritual": 0.48,
+   "family": 0.31
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.169
+ },
+ {
+  "name": "Nature traveller 110",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.94,
+   "spiritual": 0.41,
+   "family": 0.48
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.486
+ },
+ {
+  "name": "Spiritual traveller 111",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.54,
+   "spiritual": 0.98,
+   "architecture": 0.56
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.347
+ },
+ {
+  "name": "Explorer traveller 112",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.65,
+   "art": 0.5,
+   "nature": 0.59,
+   "food": 0.73,
+   "shopping": 0.43,
+   "spiritual": 0.52,
+   "architecture": 0.54,
+   "family": 0.62,
+   "crafts": 0.45
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.675
+ },
+ {
+  "name": "Spiritual traveller 113",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.55,
+   "spiritual": 1.0,
+   "architecture": 0.56
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.838
+ },
+ {
+  "name": "Nature traveller 114",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.41,
+   "spiritual": 0.41,
+   "family": 0.49
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.115
+ },
+ {
+  "name": "Explorer traveller 115",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.4,
+   "art": 0.59,
+   "nature": 0.44,
+   "food": 0.6,
+   "shopping": 0.6,
+   "spiritual": 0.58,
+   "architecture": 0.26,
+   "family": 0.55,
+   "crafts": 0.63
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.302
+ },
+ {
+  "name": "Shopper traveller 116",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.31,
+   "food": 0.62,
+   "shopping": 1.0,
+   "crafts": 0.59
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.935
+ },
+ {
+  "name": "Explorer traveller 117",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.41,
+   "art": 0.34,
+   "nature": 0.49,
+   "food": 0.51,
+   "shopping": 0.45,
+   "spiritual": 0.28,
+   "architecture": 0.59,
+   "family": 0.63,
+   "crafts": 0.5
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.446
+ },
+ {
+  "name": "Explorer traveller 118",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.5,
+   "art": 0.44,
+   "nature": 0.38,
+   "food": 0.61,
+   "shopping": 0.46,
+   "spiritual": 0.55,
+   "architecture": 0.6,
+   "family": 0.47,
+   "crafts": 0.55
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.761
+ },
+ {
+  "name": "Shopper traveller 119",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "art": 0.52,
+   "food": 0.42,
+   "shopping": 0.99,
+   "architecture": 0.26,
+   "crafts": 0.85
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.535
+ },
+ {
+  "name": "Foodie traveller 120",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.32,
+   "food": 0.93,
+   "shopping": 0.34,
+   "crafts": 0.27
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.955
+ },
+ {
+  "name": "Shopper traveller 121",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "art": 0.37,
+   "food": 0.55,
+   "shopping": 0.95,
+   "crafts": 0.76
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.819
+ },
+ {
+  "name": "Foodie traveller 122",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.69,
+   "art": 0.38,
+   "food": 0.76,
+   "shopping": 0.4,
+   "crafts": 0.53
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.784
+ },
+ {
+  "name": "Explorer traveller 123",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.71,
+   "art": 0.61,
+   "nature": 0.31,
+   "food": 0.42,
+   "spiritual": 0.4,
+   "architecture": 0.63,
+   "family": 0.55,
+   "crafts": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.861
+ },
+ {
+  "name": "Foodie traveller 124",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.42,
+   "food": 1.0,
+   "shopping": 0.69,
+   "crafts": 0.32
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.246
+ },
+ {
+  "name": "Spiritual traveller 125",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.42,
+   "spiritual": 1.0,
+   "architecture": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.83
+ },
+ {
+  "name": "Spiritual traveller 126",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.79,
+   "spiritual": 0.99,
+   "architecture": 0.56
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.29
+ },
+ {
+  "name": "Spiritual traveller 127",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.66,
+   "nature": 0.29,
+   "spiritual": 0.81,
+   "architecture": 0.72
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.162
+ },
+ {
+  "name": "Nature traveller 128",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.95,
+   "food": 0.34,
+   "family": 0.53
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.323
+ },
+ {
+  "name": "Culture traveller 129",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.78,
+   "art": 0.49,
+   "food": 0.27,
+   "spiritual": 0.42,
+   "architecture": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.541
+ },
+ {
+  "name": "Family traveller 130",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.4,
+   "art": 0.27,
+   "nature": 0.49,
+   "food": 0.59,
+   "shopping": 0.25,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.4
+ },
+ {
+  "name": "Shopper traveller 131",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.63,
+   "food": 0.41,
+   "shopping": 0.99,
+   "crafts": 0.61
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.831
+ },
+ {
+  "name": "Culture traveller 132",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.88,
+   "art": 0.83,
+   "food": 0.37,
+   "spiritual": 0.67,
+   "architecture": 0.8
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.169
+ },
+ {
+  "name": "Spiritual traveller 133",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.86,
+   "spiritual": 1.0,
+   "architecture": 0.67
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.78
+ },
+ {
+  "name": "Nature traveller 134",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "spiritual": 0.36,
+   "family": 0.27
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.266
+ },
+ {
+  "name": "Foodie traveller 135",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.25,
+   "food": 1.0,
+   "shopping": 0.4,
+   "crafts": 0.5
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.542
+ },
+ {
+  "name": "Culture traveller 136",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.97,
+   "art": 0.8,
+   "food": 0.31,
+   "spiritual": 0.46,
+   "architecture": 0.77,
+   "family": 0.38,
+   "crafts": 0.47
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.662
+ },
+ {
+  "name": "Shopper traveller 137",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "art": 0.33,
+   "food": 0.41,
+   "shopping": 0.98,
+   "crafts": 0.67
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.398
+ },
+ {
+  "name": "Spiritual traveller 138",
+  "archetype": "spiritual",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.6,
+   "nature": 0.32,
+   "spiritual": 1.0,
+   "architecture": 0.65
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.072
+ },
+ {
+  "name": "Shopper traveller 139",
+  "archetype": "shopper",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "art": 0.4,
+   "food": 0.51,
+   "shopping": 0.84,
+   "architecture": 0.26,
+   "crafts": 0.82
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.473
+ },
+ {
+  "name": "Nature traveller 140",
+  "archetype": "nature",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "nature": 0.94,
+   "spiritual": 0.43,
+   "family": 0.58
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.154
+ },
+ {
+  "name": "Culture traveller 141",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.72,
+   "art": 0.68,
+   "spiritual": 0.51,
+   "architecture": 0.75,
+   "crafts": 0.27
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.639
+ },
+ {
+  "name": "Explorer traveller 142",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.51,
+   "art": 0.64,
+   "nature": 0.51,
+   "food": 0.59,
+   "shopping": 0.71,
+   "spiritual": 0.48,
+   "architecture": 0.3,
+   "family": 0.48,
+   "crafts": 0.47
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.734
+ },
+ {
+  "name": "Spiritual traveller 143",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.64,
+   "spiritual": 1.0,
+   "architecture": 0.86
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.525
+ },
+ {
+  "name": "Shopper traveller 144",
+  "archetype": "shopper",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "food": 0.62,
+   "shopping": 1.0,
+   "family": 0.26,
+   "crafts": 0.63
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.819
+ },
+ {
+  "name": "Culture traveller 145",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.93,
+   "art": 0.93,
+   "spiritual": 0.34,
+   "architecture": 0.7,
+   "crafts": 0.42
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.843
+ },
+ {
+  "name": "Culture traveller 146",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.87,
+   "art": 0.7,
+   "food": 0.34,
+   "spiritual": 0.32,
+   "architecture": 0.85,
+   "crafts": 0.31
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.361
+ },
+ {
+  "name": "Nature traveller 147",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.41,
+   "spiritual": 0.39,
+   "family": 0.46
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.799
+ },
+ {
+  "name": "Culture traveller 148",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.65,
+   "food": 0.26,
+   "spiritual": 0.53,
+   "architecture": 0.88,
+   "crafts": 0.25
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.91
+ },
+ {
+  "name": "Shopper traveller 149",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "art": 0.43,
+   "food": 0.58,
+   "shopping": 0.87,
+   "architecture": 0.34,
+   "crafts": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.403
+ },
+ {
+  "name": "Culture traveller 150",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.85,
+   "art": 0.7,
+   "food": 0.3,
+   "spiritual": 0.48,
+   "architecture": 0.94
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.827
+ },
+ {
+  "name": "Nature traveller 151",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.97,
+   "food": 0.29,
+   "spiritual": 0.39,
+   "family": 0.61
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.605
+ },
+ {
+  "name": "Explorer traveller 152",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.61,
+   "art": 0.5,
+   "nature": 0.44,
+   "food": 0.54,
+   "shopping": 0.5,
+   "spiritual": 0.52,
+   "architecture": 0.5,
+   "family": 0.44,
+   "crafts": 0.52
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.577
+ },
+ {
+  "name": "Explorer traveller 153",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.54,
+   "art": 0.43,
+   "nature": 0.46,
+   "food": 0.41,
+   "shopping": 0.44,
+   "spiritual": 0.64,
+   "architecture": 0.53,
+   "family": 0.55,
+   "crafts": 0.66
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.391
+ },
+ {
+  "name": "Explorer traveller 154",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.49,
+   "art": 0.43,
+   "nature": 0.5,
+   "food": 0.56,
+   "shopping": 0.48,
+   "spiritual": 0.36,
+   "architecture": 0.32,
+   "family": 0.42,
+   "crafts": 0.55
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.846
+ },
+ {
+  "name": "Family traveller 155",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.27,
+   "nature": 0.49,
+   "food": 0.33,
+   "family": 0.96
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.089
+ },
+ {
+  "name": "Explorer traveller 156",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.5,
+   "art": 0.57,
+   "nature": 0.6,
+   "food": 0.62,
+   "shopping": 0.42,
+   "spiritual": 0.53,
+   "architecture": 0.44,
+   "family": 0.55,
+   "crafts": 0.48
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.676
+ },
+ {
+  "name": "Family traveller 157",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.27,
+   "art": 0.36,
+   "nature": 0.71,
+   "food": 0.34,
+   "family": 0.94
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.651
+ },
+ {
+  "name": "Shopper traveller 158",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "food": 0.52,
+   "shopping": 0.92,
+   "architecture": 0.34,
+   "crafts": 0.78
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.799
+ },
+ {
+  "name": "Shopper traveller 159",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "food": 0.55,
+   "shopping": 0.8,
+   "crafts": 0.79
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.394
+ },
+ {
+  "name": "Family traveller 160",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.3,
+   "art": 0.39,
+   "nature": 0.75,
+   "food": 0.32,
+   "family": 0.65
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.534
+ },
+ {
+  "name": "Culture traveller 161",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.91,
+   "art": 0.59,
+   "food": 0.36,
+   "spiritual": 0.3,
+   "architecture": 1.0,
+   "crafts": 0.27
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.201
+ },
+ {
+  "name": "Family traveller 162",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.27,
+   "art": 0.31,
+   "nature": 0.63,
+   "food": 0.3,
+   "family": 1.0
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.161
+ },
+ {
+  "name": "Nature traveller 163",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.53,
+   "spiritual": 0.46,
+   "family": 0.32
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.138
+ },
+ {
+  "name": "Culture traveller 164",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.9,
+   "art": 0.67,
+   "food": 0.49,
+   "spiritual": 0.26,
+   "architecture": 0.75,
+   "crafts": 0.36
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.547
+ },
+ {
+  "name": "Nature traveller 165",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "spiritual": 0.38,
+   "family": 0.67
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.462
+ },
+ {
+  "name": "Culture traveller 166",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.96,
+   "art": 0.72,
+   "spiritual": 0.35,
+   "architecture": 0.87
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.495
+ },
+ {
+  "name": "Spiritual traveller 167",
+  "archetype": "spiritual",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.67,
+   "nature": 0.37,
+   "spiritual": 1.0,
+   "architecture": 0.77
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.628
+ },
+ {
+  "name": "Family traveller 168",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.29,
+   "nature": 0.67,
+   "food": 0.52,
+   "shopping": 0.3,
+   "family": 0.97
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.63
+ },
+ {
+  "name": "Shopper traveller 169",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "food": 0.53,
+   "shopping": 0.98,
+   "crafts": 0.89
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.476
+ },
+ {
+  "name": "Family traveller 170",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.31,
+   "nature": 0.6,
+   "food": 0.3,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.125
+ },
+ {
+  "name": "Spiritual traveller 171",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.59,
+   "nature": 0.26,
+   "spiritual": 1.0,
+   "architecture": 0.82,
+   "crafts": 0.26
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.696
+ },
+ {
+  "name": "Foodie traveller 172",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.38,
+   "food": 1.0,
+   "shopping": 0.49,
+   "crafts": 0.27
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.174
+ },
+ {
+  "name": "Nature traveller 173",
+  "archetype": "nature",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.94,
+   "food": 0.36,
+   "spiritual": 0.43,
+   "family": 0.6
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.182
+ },
+ {
+  "name": "Explorer traveller 174",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.49,
+   "art": 0.35,
+   "nature": 0.41,
+   "food": 0.58,
+   "shopping": 0.49,
+   "spiritual": 0.64,
+   "architecture": 0.56,
+   "family": 0.26,
+   "crafts": 0.6
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.642
+ },
+ {
+  "name": "Foodie traveller 175",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "food": 0.87,
+   "shopping": 0.56,
+   "crafts": 0.84
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.127
+ },
+ {
+  "name": "Shopper traveller 176",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.32,
+   "food": 0.32,
+   "shopping": 0.92,
+   "architecture": 0.31,
+   "family": 0.34,
+   "crafts": 0.67
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.459
+ },
+ {
+  "name": "Foodie traveller 177",
+  "archetype": "foodie",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.34,
+   "art": 0.47,
+   "food": 0.95,
+   "shopping": 0.49,
+   "architecture": 0.39,
+   "crafts": 0.66
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.194
+ },
+ {
+  "name": "Culture traveller 178",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.58,
+   "food": 0.32,
+   "spiritual": 0.28,
+   "architecture": 0.64,
+   "crafts": 0.39
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.604
+ },
+ {
+  "name": "Foodie traveller 179",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "art": 0.32,
+   "food": 1.0,
+   "shopping": 0.46,
+   "crafts": 0.58
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.613
+ },
+ {
+  "name": "Spiritual traveller 180",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.44,
+   "nature": 0.4,
+   "spiritual": 1.0,
+   "architecture": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.224
+ },
+ {
+  "name": "Family traveller 181",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.41,
+   "art": 0.31,
+   "nature": 0.56,
+   "food": 0.64,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.544
+ },
+ {
+  "name": "Explorer traveller 182",
+  "archetype": "explorer",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.55,
+   "art": 0.3,
+   "nature": 0.36,
+   "food": 0.51,
+   "shopping": 0.56,
+   "spiritual": 0.49,
+   "architecture": 0.51,
+   "family": 0.58,
+   "crafts": 0.63
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.506
+ },
+ {
+  "name": "Family traveller 183",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.31,
+   "nature": 0.71,
+   "food": 0.58,
+   "family": 1.0
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.923
+ },
+ {
+  "name": "Shopper traveller 184",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.36,
+   "food": 0.57,
+   "shopping": 0.85,
+   "crafts": 0.59
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.811
+ },
+ {
+  "name": "Family traveller 185",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.39,
+   "art": 0.28,
+   "nature": 0.58,
+   "food": 0.56,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.828
+ },
+ {
+  "name": "Shopper traveller 186",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "food": 0.59,
+   "shopping": 1.0,
+   "crafts": 0.82
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.342
+ },
+ {
+  "name": "Explorer traveller 187",
+  "archetype": "explorer",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.43,
+   "art": 0.67,
+   "nature": 0.44,
+   "food": 0.33,
+   "shopping": 0.59,
+   "spiritual": 0.44,
+   "architecture": 0.49,
+   "family": 0.58,
+   "crafts": 0.53
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.838
+ },
+ {
+  "name": "Explorer traveller 188",
+  "archetype": "explorer",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.64,
+   "art": 0.4,
+   "nature": 0.48,
+   "food": 0.43,
+   "shopping": 0.53,
+   "spiritual": 0.6,
+   "architecture": 0.31,
+   "family": 0.51,
+   "crafts": 0.69
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.498
+ },
+ {
+  "name": "Nature traveller 189",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "nature": 1.0,
+   "spiritual": 0.46,
+   "family": 0.39
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.013
+ },
+ {
+  "name": "Family traveller 190",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "art": 0.38,
+   "nature": 0.49,
+   "food": 0.45,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.555
+ },
+ {
+  "name": "Family traveller 191",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.25,
+   "nature": 0.65,
+   "food": 0.39,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.463
+ },
+ {
+  "name": "Foodie traveller 192",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.28,
+   "food": 1.0,
+   "shopping": 0.61,
+   "crafts": 0.36
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.654
+ },
+ {
+  "name": "Shopper traveller 193",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.39,
+   "food": 0.53,
+   "shopping": 1.0,
+   "architecture": 0.46,
+   "crafts": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.163
+ },
+ {
+  "name": "Family traveller 194",
+  "archetype": "family",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.3,
+   "nature": 0.27,
+   "food": 0.33,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.516
+ },
+ {
+  "name": "Foodie traveller 195",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.32,
+   "art": 0.28,
+   "food": 0.93,
+   "shopping": 0.52,
+   "crafts": 0.54
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.421
+ },
+ {
+  "name": "Culture traveller 196",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.66,
+   "art": 0.66,
+   "food": 0.48,
+   "spiritual": 0.49,
+   "architecture": 0.88
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.524
+ },
+ {
+  "name": "Explorer traveller 197",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.47,
+   "art": 0.47,
+   "nature": 0.6,
+   "food": 0.42,
+   "shopping": 0.33,
+   "spiritual": 0.54,
+   "architecture": 0.49,
+   "family": 0.54,
+   "crafts": 0.36
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.488
+ },
+ {
+  "name": "Foodie traveller 198",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "food": 1.0,
+   "shopping": 0.62,
+   "crafts": 0.78
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.481
+ },
+ {
+  "name": "Explorer traveller 199",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.7,
+   "art": 0.44,
+   "nature": 0.36,
+   "food": 0.35,
+   "shopping": 0.55,
+   "spiritual": 0.42,
+   "architecture": 0.51,
+   "family": 0.43,
+   "crafts": 0.31
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.564
+ },
+ {
+  "name": "Explorer traveller 200",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.43,
+   "art": 0.77,
+   "nature": 0.28,
+   "food": 0.44,
+   "shopping": 0.62,
+   "spiritual": 0.43,
+   "architecture": 0.64,
+   "family": 0.33,
+   "crafts": 0.7
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.388
+ },
+ {
+  "name": "Foodie traveller 201",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "food": 0.97,
+   "shopping": 0.44,
+   "crafts": 0.41
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.086
+ },
+ {
+  "name": "Spiritual traveller 202",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.56,
+   "art": 0.27,
+   "spiritual": 0.98,
+   "architecture": 0.74
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.869
+ },
+ {
+  "name": "Foodie traveller 203",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.48,
+   "food": 0.83,
+   "shopping": 0.62,
+   "crafts": 0.4
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.709
+ },
+ {
+  "name": "Family traveller 204",
+  "archetype": "family",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "art": 0.37,
+   "nature": 0.39,
+   "food": 0.36,
+   "family": 0.98
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.664
+ },
+ {
+  "name": "Culture traveller 205",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 1.0,
+   "art": 0.63,
+   "spiritual": 0.62,
+   "architecture": 0.79,
+   "crafts": 0.29
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.345
+ },
+ {
+  "name": "Family traveller 206",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "art": 0.37,
+   "nature": 0.61,
+   "food": 0.43,
+   "family": 0.9
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.969
+ },
+ {
+  "name": "Foodie traveller 207",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.34,
+   "food": 1.0,
+   "shopping": 0.6,
+   "crafts": 0.47
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.639
+ },
+ {
+  "name": "Culture traveller 208",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.98,
+   "art": 0.61,
+   "food": 0.37,
+   "spiritual": 0.47,
+   "architecture": 0.84,
+   "crafts": 0.26
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.502
+ },
+ {
+  "name": "Shopper traveller 209",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "food": 0.38,
+   "shopping": 0.95,
+   "crafts": 0.69
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.211
+ },
+ {
+  "name": "Culture traveller 210",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.9,
+   "art": 0.66,
+   "spiritual": 0.66,
+   "architecture": 0.81
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.853
+ },
+ {
+  "name": "Explorer traveller 211",
+  "archetype": "explorer",
+  "hotel": "Riverside Inn",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.41,
+   "art": 0.57,
+   "nature": 0.5,
+   "food": 0.6,
+   "shopping": 0.54,
+   "spiritual": 0.36,
+   "architecture": 0.56,
+   "family": 0.65,
+   "crafts": 0.45
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.152
+ },
+ {
+  "name": "Nature traveller 212",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "nature": 0.85,
+   "food": 0.34,
+   "spiritual": 0.49,
+   "family": 0.4
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.749
+ },
+ {
+  "name": "Spiritual traveller 213",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.72,
+   "nature": 0.44,
+   "spiritual": 0.65,
+   "architecture": 0.67
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.84
+ },
+ {
+  "name": "Spiritual traveller 214",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.49,
+   "nature": 0.3,
+   "spiritual": 0.87,
+   "architecture": 0.45
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.396
+ },
+ {
+  "name": "Family traveller 215",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.48,
+   "nature": 0.43,
+   "food": 0.49,
+   "family": 0.97
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.419
+ },
+ {
+  "name": "Shopper traveller 216",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "art": 0.42,
+   "food": 0.58,
+   "shopping": 1.0,
+   "architecture": 0.34,
+   "crafts": 0.5
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.749
+ },
+ {
+  "name": "Culture traveller 217",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.8,
+   "art": 0.95,
+   "food": 0.34,
+   "architecture": 0.88,
+   "crafts": 0.26
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.185
+ },
+ {
+  "name": "Shopper traveller 218",
+  "archetype": "shopper",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.45,
+   "food": 0.41,
+   "shopping": 1.0,
+   "crafts": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.39
+ },
+ {
+  "name": "Culture traveller 219",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.94,
+   "art": 0.8,
+   "food": 0.57,
+   "spiritual": 0.39,
+   "architecture": 0.58,
+   "crafts": 0.25
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.324
+ },
+ {
+  "name": "Foodie traveller 220",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "food": 0.87,
+   "shopping": 0.38,
+   "crafts": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.627
+ },
+ {
+  "name": "Nature traveller 221",
+  "archetype": "nature",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.99,
+   "food": 0.4,
+   "spiritual": 0.59,
+   "architecture": 0.26,
+   "family": 0.45
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.404
+ },
+ {
+  "name": "Spiritual traveller 222",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.55,
+   "nature": 0.36,
+   "spiritual": 0.82,
+   "architecture": 0.54
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.217
+ },
+ {
+  "name": "Nature traveller 223",
+  "archetype": "nature",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.35,
+   "spiritual": 0.38,
+   "family": 0.52
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.675
+ },
+ {
+  "name": "Spiritual traveller 224",
+  "archetype": "spiritual",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.59,
+   "nature": 0.42,
+   "spiritual": 1.0,
+   "architecture": 0.41,
+   "crafts": 0.27
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.307
+ },
+ {
+  "name": "Spiritual traveller 225",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.54,
+   "nature": 0.37,
+   "spiritual": 0.99,
+   "architecture": 0.47
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.134
+ },
+ {
+  "name": "Family traveller 226",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.51,
+   "nature": 0.63,
+   "family": 1.0
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.751
+ },
+ {
+  "name": "Explorer traveller 227",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.51,
+   "art": 0.35,
+   "nature": 0.51,
+   "food": 0.36,
+   "shopping": 0.5,
+   "spiritual": 0.53,
+   "family": 0.61,
+   "crafts": 0.52
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.816
+ },
+ {
+  "name": "Culture traveller 228",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.88,
+   "art": 0.62,
+   "food": 0.5,
+   "spiritual": 0.51,
+   "architecture": 0.92,
+   "crafts": 0.25
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.846
+ },
+ {
+  "name": "Culture traveller 229",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.73,
+   "art": 0.74,
+   "food": 0.29,
+   "shopping": 0.29,
+   "spiritual": 0.34,
+   "architecture": 0.87,
+   "crafts": 0.32
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.621
+ },
+ {
+  "name": "Explorer traveller 230",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.72,
+   "art": 0.29,
+   "nature": 0.47,
+   "food": 0.5,
+   "spiritual": 0.52,
+   "architecture": 0.52,
+   "family": 0.55,
+   "crafts": 0.56
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.915
+ },
+ {
+  "name": "Explorer traveller 231",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.56,
+   "art": 0.7,
+   "nature": 0.46,
+   "food": 0.49,
+   "shopping": 0.64,
+   "spiritual": 0.55,
+   "architecture": 0.48,
+   "family": 0.43,
+   "crafts": 0.37
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.186
+ },
+ {
+  "name": "Nature traveller 232",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "nature": 1.0,
+   "family": 0.37
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.375
+ },
+ {
+  "name": "Explorer traveller 233",
+  "archetype": "explorer",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.42,
+   "art": 0.71,
+   "nature": 0.63,
+   "food": 0.42,
+   "shopping": 0.66,
+   "spiritual": 0.65,
+   "architecture": 0.46,
+   "family": 0.46,
+   "crafts": 0.49
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.601
+ },
+ {
+  "name": "Shopper traveller 234",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.26,
+   "food": 0.45,
+   "shopping": 1.0,
+   "architecture": 0.39,
+   "crafts": 0.87
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.734
+ },
+ {
+  "name": "Spiritual traveller 235",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.68,
+   "nature": 0.3,
+   "spiritual": 1.0,
+   "architecture": 0.64
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.725
+ },
+ {
+  "name": "Shopper traveller 236",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "food": 0.51,
+   "shopping": 1.0,
+   "architecture": 0.41,
+   "crafts": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.591
+ },
+ {
+  "name": "Nature traveller 237",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.44,
+   "spiritual": 0.44,
+   "architecture": 0.28,
+   "family": 0.28
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.431
+ },
+ {
+  "name": "Spiritual traveller 238",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.52,
+   "nature": 0.46,
+   "spiritual": 1.0,
+   "architecture": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.872
+ },
+ {
+  "name": "Nature traveller 239",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 1.0,
+   "spiritual": 0.29,
+   "family": 0.36
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.672
+ },
+ {
+  "name": "Family traveller 240",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "history": 0.37,
+   "art": 0.28,
+   "nature": 0.69,
+   "food": 0.43,
+   "family": 0.94
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.267
+ },
+ {
+  "name": "Shopper traveller 241",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "art": 0.63,
+   "food": 0.65,
+   "shopping": 1.0,
+   "crafts": 0.72
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.758
+ },
+ {
+  "name": "Family traveller 242",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.33,
+   "art": 0.39,
+   "nature": 0.53,
+   "food": 0.42,
+   "family": 1.0
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.553
+ },
+ {
+  "name": "Explorer traveller 243",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.48,
+   "art": 0.64,
+   "nature": 0.29,
+   "food": 0.57,
+   "shopping": 0.61,
+   "spiritual": 0.6,
+   "architecture": 0.58,
+   "family": 0.54,
+   "crafts": 0.45
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.938
+ },
+ {
+  "name": "Shopper traveller 244",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "art": 0.33,
+   "food": 0.58,
+   "shopping": 0.97,
+   "crafts": 0.73
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.565
+ },
+ {
+  "name": "Explorer traveller 245",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.51,
+   "art": 0.61,
+   "nature": 0.36,
+   "food": 0.41,
+   "shopping": 0.45,
+   "spiritual": 0.39,
+   "architecture": 0.69,
+   "family": 0.42,
+   "crafts": 0.48
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.292
+ },
+ {
+  "name": "Spiritual traveller 246",
+  "archetype": "spiritual",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.69,
+   "nature": 0.43,
+   "spiritual": 0.98,
+   "architecture": 0.68
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.726
+ },
+ {
+  "name": "Foodie traveller 247",
+  "archetype": "foodie",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.47,
+   "food": 1.0,
+   "shopping": 0.61,
+   "crafts": 0.44
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.212
+ },
+ {
+  "name": "Family traveller 248",
+  "archetype": "family",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.48,
+   "food": 0.38,
+   "family": 0.96
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.492
+ },
+ {
+  "name": "Culture traveller 249",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.94,
+   "art": 0.88,
+   "food": 0.27,
+   "spiritual": 0.41,
+   "architecture": 0.8,
+   "crafts": 0.3
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.871
+ },
+ {
+  "name": "Nature traveller 250",
+  "archetype": "nature",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "nature": 0.79,
+   "food": 0.28,
+   "spiritual": 0.41,
+   "family": 0.29
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.926
+ },
+ {
+  "name": "Shopper traveller 251",
+  "archetype": "shopper",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "art": 0.28,
+   "food": 0.48,
+   "shopping": 1.0,
+   "crafts": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.644
+ },
+ {
+  "name": "Foodie traveller 252",
+  "archetype": "foodie",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.27,
+   "food": 0.86,
+   "shopping": 0.33,
+   "crafts": 0.64
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.619
+ },
+ {
+  "name": "Family traveller 253",
+  "archetype": "family",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.46,
+   "nature": 0.66,
+   "food": 0.5,
+   "family": 0.85
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.248
+ },
+ {
+  "name": "Spiritual traveller 254",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.6,
+   "spiritual": 0.69,
+   "architecture": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.528
+ },
+ {
+  "name": "Nature traveller 255",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.34,
+   "spiritual": 0.48,
+   "family": 0.55
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.333
+ },
+ {
+  "name": "Culture traveller 256",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.78,
+   "art": 0.72,
+   "spiritual": 0.38,
+   "architecture": 1.0
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.415
+ },
+ {
+  "name": "Foodie traveller 257",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "art": 0.27,
+   "food": 0.99,
+   "shopping": 0.42,
+   "crafts": 0.65
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.957
+ },
+ {
+  "name": "Culture traveller 258",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 2500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.72,
+   "spiritual": 0.29,
+   "architecture": 0.67,
+   "crafts": 0.38
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.608
+ },
+ {
+  "name": "Foodie traveller 259",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.35,
+   "art": 0.42,
+   "food": 0.9,
+   "shopping": 0.47,
+   "crafts": 0.48
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.739
+ },
+ {
+  "name": "Family traveller 260",
+  "archetype": "family",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 1500,
+  "interests": {
+   "nature": 0.4,
+   "food": 0.54,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.021
+ },
+ {
+  "name": "Spiritual traveller 261",
+  "archetype": "spiritual",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.47,
+   "spiritual": 0.77,
+   "architecture": 0.49
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.389
+ },
+ {
+  "name": "Shopper traveller 262",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "art": 0.34,
+   "food": 0.45,
+   "shopping": 0.88,
+   "crafts": 0.89
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.887
+ },
+ {
+  "name": "Culture traveller 263",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.88,
+   "art": 0.63,
+   "food": 0.32,
+   "spiritual": 0.39,
+   "architecture": 0.79,
+   "crafts": 0.42
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.503
+ },
+ {
+  "name": "Shopper traveller 264",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "art": 0.31,
+   "food": 0.41,
+   "shopping": 0.99,
+   "family": 0.29,
+   "crafts": 0.62
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.477
+ },
+ {
+  "name": "Spiritual traveller 265",
+  "archetype": "spiritual",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.73,
+   "nature": 0.41,
+   "spiritual": 1.0,
+   "architecture": 0.67
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.232
+ },
+ {
+  "name": "Shopper traveller 266",
+  "archetype": "shopper",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "19:00",
+  "budget": 5000,
+  "interests": {
+   "art": 0.45,
+   "food": 0.5,
+   "shopping": 0.96,
+   "crafts": 0.57
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.126
+ },
+ {
+  "name": "Foodie traveller 267",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "food": 0.92,
+   "shopping": 0.42,
+   "crafts": 0.69
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.261
+ },
+ {
+  "name": "Nature traveller 268",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.32,
+   "spiritual": 0.36,
+   "family": 0.45
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.168
+ },
+ {
+  "name": "Culture traveller 269",
+  "archetype": "culture",
+  "hotel": "Hill Lodge",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.7,
+   "art": 0.57,
+   "food": 0.27,
+   "spiritual": 0.42,
+   "architecture": 0.88,
+   "crafts": 0.33
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.903
+ },
+ {
+  "name": "Culture traveller 270",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.66,
+   "art": 0.65,
+   "food": 0.25,
+   "spiritual": 0.49,
+   "architecture": 0.73
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.227
+ },
+ {
+  "name": "Spiritual traveller 271",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.62,
+   "nature": 0.33,
+   "spiritual": 0.98,
+   "architecture": 0.7
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.621
+ },
+ {
+  "name": "Explorer traveller 272",
+  "archetype": "explorer",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.42,
+   "art": 0.38,
+   "nature": 0.44,
+   "food": 0.77,
+   "shopping": 0.52,
+   "spiritual": 0.55,
+   "architecture": 0.48,
+   "family": 0.57,
+   "crafts": 0.72
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.881
+ },
+ {
+  "name": "Spiritual traveller 273",
+  "archetype": "spiritual",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.65,
+   "nature": 0.27,
+   "spiritual": 1.0,
+   "architecture": 0.52
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.254
+ },
+ {
+  "name": "Nature traveller 274",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.28,
+   "spiritual": 0.53,
+   "family": 0.39
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Botanical Garden"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.283
+ },
+ {
+  "name": "Nature traveller 275",
+  "archetype": "nature",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "nature": 1.0,
+   "food": 0.26,
+   "spiritual": 0.38,
+   "family": 0.45
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.183
+ },
+ {
+  "name": "Family traveller 276",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.27,
+   "art": 0.47,
+   "nature": 0.58,
+   "food": 0.27,
+   "family": 1.0
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.189
+ },
+ {
+  "name": "Shopper traveller 277",
+  "archetype": "shopper",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "art": 0.53,
+   "food": 0.42,
+   "shopping": 0.83,
+   "crafts": 0.99
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": true,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.672
+ },
+ {
+  "name": "Spiritual traveller 278",
+  "archetype": "spiritual",
+  "hotel": "Lakeside Resort",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.71,
+   "nature": 0.43,
+   "spiritual": 1.0,
+   "architecture": 0.55
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.779
+ },
+ {
+  "name": "Spiritual traveller 279",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 3500,
+  "interests": {
+   "history": 0.73,
+   "nature": 0.47,
+   "spiritual": 1.0,
+   "architecture": 0.83
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.222
+ },
+ {
+  "name": "Spiritual traveller 280",
+  "archetype": "spiritual",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "20:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.71,
+   "nature": 0.41,
+   "spiritual": 0.99,
+   "architecture": 0.54
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.844
+ },
+ {
+  "name": "Spiritual traveller 281",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.64,
+   "nature": 0.33,
+   "spiritual": 1.0,
+   "architecture": 0.48
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.78
+ },
+ {
+  "name": "Spiritual traveller 282",
+  "archetype": "spiritual",
+  "hotel": "Hill Lodge",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.61,
+   "nature": 0.29,
+   "spiritual": 0.98,
+   "architecture": 0.47,
+   "family": 0.33
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.387
+ },
+ {
+  "name": "Foodie traveller 283",
+  "archetype": "foodie",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 0.4,
+   "art": 0.49,
+   "food": 1.0,
+   "shopping": 0.51,
+   "crafts": 0.62
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.887
+ },
+ {
+  "name": "Spiritual traveller 284",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "10:30",
+  "end": "19:30",
+  "budget": 1500,
+  "interests": {
+   "history": 0.72,
+   "nature": 0.38,
+   "spiritual": 1.0,
+   "architecture": 0.5
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.442
+ },
+ {
+  "name": "Shopper traveller 285",
+  "archetype": "shopper",
+  "hotel": "Museum Suites",
+  "start": "10:30",
+  "end": "20:00",
+  "budget": 3500,
+  "interests": {
+   "food": 0.67,
+   "shopping": 0.95,
+   "architecture": 0.41,
+   "crafts": 0.83
+  },
+  "max_places": 3,
+  "must_visit": [
+   "Grand Bazaar"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.213
+ },
+ {
+  "name": "Culture traveller 286",
+  "archetype": "culture",
+  "hotel": "Central Hotel",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 2500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.53,
+   "food": 0.26,
+   "spiritual": 0.38,
+   "architecture": 0.67,
+   "crafts": 0.5
+  },
+  "max_places": 5,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.585
+ },
+ {
+  "name": "Spiritual traveller 287",
+  "archetype": "spiritual",
+  "hotel": "Central Hotel",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 1500,
+  "interests": {
+   "history": 0.48,
+   "nature": 0.36,
+   "spiritual": 0.9,
+   "architecture": 0.53
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "high",
+  "flexibility": 0.443
+ },
+ {
+  "name": "Culture traveller 288",
+  "archetype": "culture",
+  "hotel": "Museum Suites",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.73,
+   "art": 0.75,
+   "food": 0.34,
+   "spiritual": 0.37,
+   "architecture": 0.66,
+   "crafts": 0.28
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.156
+ },
+ {
+  "name": "Explorer traveller 289",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "20:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.49,
+   "art": 0.56,
+   "nature": 0.71,
+   "food": 0.42,
+   "shopping": 0.61,
+   "spiritual": 0.51,
+   "architecture": 0.39,
+   "family": 0.62,
+   "crafts": 0.46
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.182
+ },
+ {
+  "name": "Explorer traveller 290",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.33,
+   "art": 0.31,
+   "nature": 0.33,
+   "food": 0.65,
+   "shopping": 0.64,
+   "spiritual": 0.34,
+   "architecture": 0.34,
+   "family": 0.33,
+   "crafts": 0.37
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.616
+ },
+ {
+  "name": "Shopper traveller 291",
+  "archetype": "shopper",
+  "hotel": "Central Hotel",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 3500,
+  "interests": {
+   "art": 0.31,
+   "food": 0.54,
+   "shopping": 0.95,
+   "crafts": 0.64
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.349
+ },
+ {
+  "name": "Foodie traveller 292",
+  "archetype": "foodie",
+  "hotel": "Riverside Inn",
+  "start": "10:00",
+  "end": "19:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.29,
+   "food": 0.93,
+   "crafts": 0.4
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.448
+ },
+ {
+  "name": "Nature traveller 293",
+  "archetype": "nature",
+  "hotel": "Lakeside Resort",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "nature": 0.95,
+   "food": 0.53,
+   "spiritual": 0.36
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.323
+ },
+ {
+  "name": "Explorer traveller 294",
+  "archetype": "explorer",
+  "hotel": "Campus Guesthouse",
+  "start": "09:00",
+  "end": "19:00",
+  "budget": 3500,
+  "interests": {
+   "history": 0.61,
+   "art": 0.53,
+   "nature": 0.36,
+   "food": 0.46,
+   "shopping": 0.53,
+   "spiritual": 0.3,
+   "architecture": 0.4,
+   "family": 0.55,
+   "crafts": 0.61
+  },
+  "max_places": 4,
+  "must_visit": [
+   "Grand Temple"
+  ],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.366
+ },
+ {
+  "name": "Family traveller 295",
+  "archetype": "family",
+  "hotel": "Museum Suites",
+  "start": "09:30",
+  "end": "19:30",
+  "budget": 5000,
+  "interests": {
+   "nature": 0.49,
+   "food": 0.46,
+   "family": 0.93
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "high",
+  "flexibility": 0.801
+ },
+ {
+  "name": "Culture traveller 296",
+  "archetype": "culture",
+  "hotel": "Riverside Inn",
+  "start": "10:30",
+  "end": "18:30",
+  "budget": 3500,
+  "interests": {
+   "history": 1.0,
+   "art": 0.58,
+   "spiritual": 0.5,
+   "architecture": 0.89
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "low",
+  "flexibility": 0.443
+ },
+ {
+  "name": "Explorer traveller 297",
+  "archetype": "explorer",
+  "hotel": "Museum Suites",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 5000,
+  "interests": {
+   "history": 0.33,
+   "art": 0.58,
+   "nature": 0.5,
+   "food": 0.49,
+   "shopping": 0.56,
+   "spiritual": 0.42,
+   "architecture": 0.81,
+   "family": 0.45,
+   "crafts": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus"
+  ],
+  "willingness": "low",
+  "flexibility": 0.443
+ },
+ {
+  "name": "Culture traveller 298",
+  "archetype": "culture",
+  "hotel": "Lakeside Resort",
+  "start": "10:30",
+  "end": "19:00",
+  "budget": 2500,
+  "interests": {
+   "history": 0.8,
+   "art": 0.71,
+   "spiritual": 0.52,
+   "architecture": 0.82,
+   "crafts": 0.49
+  },
+  "max_places": 3,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.301
+ },
+ {
+  "name": "Culture traveller 299",
+  "archetype": "culture",
+  "hotel": "Campus Guesthouse",
+  "start": "10:00",
+  "end": "18:00",
+  "budget": 7000,
+  "interests": {
+   "history": 0.75,
+   "art": 0.67,
+   "food": 0.39,
+   "spiritual": 0.46,
+   "architecture": 0.94,
+   "crafts": 0.27
+  },
+  "max_places": 5,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": false,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.578
+ },
+ {
+  "name": "Foodie traveller 300",
+  "archetype": "foodie",
+  "hotel": "Hill Lodge",
+  "start": "09:00",
+  "end": "19:30",
+  "budget": 7000,
+  "interests": {
+   "history": 0.28,
+   "food": 0.93,
+   "shopping": 0.52,
+   "crafts": 0.38
+  },
+  "max_places": 4,
+  "must_visit": [],
+  "accessible_only": false,
+  "lunch": true,
+  "modes": [
+   "walk",
+   "bus",
+   "taxi"
+  ],
+  "willingness": "medium",
+  "flexibility": 0.518
+ }
+]
